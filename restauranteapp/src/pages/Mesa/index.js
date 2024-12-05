@@ -115,13 +115,14 @@ export default function Mesa() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#00693E'
+        backgroundColor: '##e0d4aa'
+
     },
     titlePage: {
         fontSize: 26,
         fontWeight: 'bold',
         margin: 14,
-        color: '#00693E',
+        color: '#595340',
         alignSelf: 'center',
         alignItems: 'center',
         justifyContent: 'center'
@@ -132,7 +133,7 @@ const styles = StyleSheet.create({
     },
     contentHeader: {
         flex: 1,
-        backgroundColor: "#00693E",
+        backgroundColor: "#e0d4aa",
         alignItems: 'center',
         justifyContent: 'center'
     },

@@ -110,7 +110,7 @@ export default function Login() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#00693E'
+    backgroundColor: '#E7DBB7'
   },
   containerHeader: {
     marginTop: '14%',
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
     width: '95%'
   },
   button: {
-    backgroundColor: '#00693E',
+    backgroundColor: '#418278',
     width: '100%',
     borderRadius: 4,
     paddingVertical: 8,

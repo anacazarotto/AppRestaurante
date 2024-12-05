@@ -148,3 +148,10 @@
   text-transform: var(--md-sys-typescale-title-large-text-transform);
   text-decoration: var(--md-sys-typescale-title-large-text-decoration);
 }
+
+.parkinsans-unique {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* Escolha um valor entre 300 e 800 */
+  font-style: normal;
+}

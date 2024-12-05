@@ -118,7 +118,7 @@ export default function FecharComanda({ route }) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#00693E',
+        backgroundColor: '#E7DBB7',
     },
     contentHeader: {
         marginBottom: 10,
@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
     },
     button2: {
         position: 'absolute',
-        backgroundColor: '#00693E',
+        backgroundColor: '#E7DBB7',
         borderRadius: 50,
         paddingVertical: 8,
         width: '60%',

@@ -45,7 +45,7 @@ export default function Login() {
       return
     }
     setLoading(true);
-    const response = await postLogin(email, password);
+    const response = await postLogin('email', 'password');
     if (response.status === 200) {
       const json = await response.json();
       await AsyncStorage.setItem('token', json.token)

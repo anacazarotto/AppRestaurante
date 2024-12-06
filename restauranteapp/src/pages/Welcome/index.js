@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
     },
     navbarTitle: {
         color: '#FFF',
-        fontSize: '2.5rem', // 2.5rem
+        fontSize: 40, // 2.5rem
         fontWeight: 'bold',
     },
     containerLogo: {
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     title: {
-        fontSize: '1.5rem', // 1.5rem
+        fontSize: 24, // 1.5rem
         fontWeight: 'bold',
         marginTop: 28,
         marginBottom: 12,
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     buttonText: {
-        fontSize: '1.125rem', // 1.125rem
+        fontSize: 18, // 1.125rem
         color: '#fff',
         fontWeight: 'bold'
     }

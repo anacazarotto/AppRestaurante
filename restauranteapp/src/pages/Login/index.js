@@ -45,7 +45,7 @@ export default function Login() {
       return
     }
     setLoading(true);
-    const response = await postLogin('email', 'password');
+    const response = await postLogin(email, password);
     if (response.status === 200) {
       const json = await response.json();
       await AsyncStorage.setItem('token', json.token)
@@ -87,7 +87,7 @@ export default function Login() {
           <TextInput
             onChangeText={text => setPassword(text)} defaultValue={password} placeholder='Senha' style={styles.input} secureTextEntry={secureTextEntry} ico />
           <Pressable onPress={() => setSecureTextEntry(!secureTextEntry)}>
-            <FontAwesome name={secureTextEntry ? 'eye' : 'eye-slash'} size={20} style={{ paddingRight: 20 }} />
+            <FontAwesome name={secureTextEntry ? 'eye' : 'eye-slash'} size={24} style={{ paddingRight: 20 }} />
           </Pressable>
         </View>
         <TouchableOpacity style={isLoading ? styles.buttonLoading : styles.button} onPress={getSession} disabled={isLoading}>
@@ -101,7 +101,9 @@ export default function Login() {
           <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked} />
           <Text style={styles.paragraph}>Salvar login</Text>
         </View>
-
+        <TouchableOpacity onPress={() => navigation.navigate('Register')}>
+          <Text style={styles.textLinkTerms}>Não tem uma conta? Cadastre-se</Text>
+        </TouchableOpacity>
       </Animatable.View>
 
     </View>
@@ -110,7 +112,7 @@ export default function Login() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#E7DBB7'
+    backgroundColor: '#00693E'
   },
   containerHeader: {
     marginTop: '14%',
@@ -142,7 +144,7 @@ const styles = StyleSheet.create({
     width: '95%'
   },
   button: {
-    backgroundColor: '#418278',
+    backgroundColor: '#00693E',
     width: '100%',
     borderRadius: 4,
     paddingVertical: 8,

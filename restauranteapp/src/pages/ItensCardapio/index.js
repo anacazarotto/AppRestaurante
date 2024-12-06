@@ -49,7 +49,7 @@ export default function ItensCardapio() {
             if (response.status === 201) {
                 Toast.show({
                     type: 'success',
-                    text1: 'Mesa adicionada',
+                    text1: 'Item adicionado',
                 });
                 setNovoItem({ nome: '', categoria: 'prato', preco: '' });
                 fetchItens();

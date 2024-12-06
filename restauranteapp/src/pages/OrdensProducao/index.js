@@ -120,7 +120,7 @@ export default function OrdensProducao({ route }) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#E7DBB7'
+        backgroundColor: '#00693E'
     },
     titlePage: {
         fontSize: 26,
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     },
     contentHeader: {
         flex: 1,
-        backgroundColor: "#E7DBB7",
+        backgroundColor: "#00693E",
         alignItems: 'center',
         justifyContent: 'center'
     },
@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
     text: { fontSize: 16, marginBottom: 5 },
     actions: { flexDirection: 'row', justifyContent: 'space-between', marginTop: 10 },
     button_entregue: {
-        backgroundColor: '#E7DBB7',
+        backgroundColor: '#00693E',
         padding: 10,
         borderRadius: 5,
         flex: 1,

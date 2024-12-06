@@ -88,7 +88,7 @@ export default function Relatorio({ navigation }) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#E7DBB7'
+        backgroundColor: '#00693E'
     },
     titlePage: {
         fontSize: 26,

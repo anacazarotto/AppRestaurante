@@ -5,7 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Animatable from 'react-native-animatable'
 
-const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64;
+const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 34;
 export default function Header({ name }) {
     const navigation = useNavigation()
     return (

@@ -48,13 +48,13 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#E7DBB7'
+    backgroundColor: '#00693E'
   },
   titlePage: {
     fontSize: 26,
     fontWeight: 'bold',
     margin: 14,
-    color: '#E7DBB7',
+    color: '#00693E',
     alignSelf: 'center',
     alignItems: 'center',
     justifyContent: 'center'
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
   contentHeader: {
     flex: 1,
-    backgroundColor: "#E7DBB7",
+    backgroundColor: "#00693E",
     alignItems: 'center',
     justifyContent: 'center'
   },
